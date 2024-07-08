@@ -1,0 +1,115 @@
+/* AdminPanel.css */
+
+.admin-panel-container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .admin-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .admin-section h2 {
+    margin-bottom: 15px;
+    color: #444;
+  }
+  
+  .calendar-staff-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .calendar-container {
+    flex: 1;
+  }
+  
+  .staff-schedule-details {
+    flex: 2;
+  }
+  
+  .staff-details {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 10px;
+  }
+  
+  .staff-details h4 {
+    margin-bottom: 10px;
+  }
+  
+  .task-list label {
+    margin-right: 10px;
+  }
+  
+  .react-calendar {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .react-calendar__navigation button {
+    color: #fff;
+    background-color: #444;
+    border: none;
+  }
+  
+  .react-calendar__navigation button:hover,
+  .react-calendar__tile:enabled:hover,
+  .react-calendar__tile:enabled:focus {
+    background-color: #555;
+  }
+  
+  .react-calendar__month-view__days__day--weekend {
+    color: #f66;
+  }
+  
+  .react-calendar__tile--active {
+    background-color: #006edc;
+    color: white;
+  }
+  
+  .react-calendar__tile--now {
+    background: #4CAF50 !important;
+    color: white !important;
+  }
+  
+  .react-calendar__tile {
+    background: none;
+    color: #fff;
+  }
+  
+  /* Slide down animation */
+  .slide-down {
+    animation: slide-down 0.5s ease-out forwards;
+  }
+  
+  @keyframes slide-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
